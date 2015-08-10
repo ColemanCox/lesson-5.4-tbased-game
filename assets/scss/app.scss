@@ -6,7 +6,9 @@
 
 
 html{
-  background:url("http://fc09.deviantart.net/fs70/f/2013/011/e/7/dragon_ball_z_shenlong_vita_wallpaper_by_kaiba1987-d5r5i91.jpg")
+  background:url("http://fc09.deviantart.net/fs70/f/2013/011/e/7/dragon_ball_z_shenlong_vita_wallpaper_by_kaiba1987-d5r5i91.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
 }
 
 .pic{
@@ -16,15 +18,15 @@ html{
 .left{
   width:120px;
   position:absolute;
-  margin-left:8.5%;
-  margin-top:2.5%;
+  margin-left:21%;
+  margin-top:2%;
 }
 
 .right{
   width:120px;
   position:absolute;
-  margin-left:70%;
-  margin-top:-50%;
+  margin-left:67.5%;
+  margin-top:-37.2%;
 }
 
 li .good{
@@ -33,9 +35,6 @@ li .good{
   border:solid 5px navy;
   border-radius: 20px;
   margin-left:3%;
-
-
-
 }
 
 .topname img{
@@ -44,22 +43,23 @@ li .good{
   display:block;
   width:110px;
   position:relative;
-
-
 }
 
 
 .display{
+  color:navy;
   height:500px;
   width:500px;
   display:block;
-  background-color:orange;
-  margin-left:20%;
+  background-color: orange;
+  margin-left:30%;
+  margin-top:10%;
   border:solid 20px red;
   border-radius: 50px;
-
-
+  text-align:center;
+  font-size:30px;
 }
+
 
 .name img{
   border:5px solid purple;
@@ -76,7 +76,25 @@ li .bad{
   border-radius: 20px;
 
 }
+.top{
+  color:red;
+  background-color:orange;
+  border:solid 5px navy;
+  border-radius:10px;
+  margin-left:30%;
+}
+
+
+
+.bottom{
+  color: red;
+  background-color: black;
+  border: 5px solid purple;
+  border-radius:10px;
+  margin-left:30%;
+}
 
 .rightSide{
   position:absolute;
 }
+
