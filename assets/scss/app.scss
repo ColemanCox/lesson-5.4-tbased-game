@@ -3,3 +3,80 @@
 @import 'bourbon';
 @import 'neat';
 @import 'border-box';
+
+
+html{
+  background:url("http://fc09.deviantart.net/fs70/f/2013/011/e/7/dragon_ball_z_shenlong_vita_wallpaper_by_kaiba1987-d5r5i91.jpg")
+}
+
+.pic{
+  height:120px;
+}
+
+.left{
+  width:120px;
+  position:absolute;
+  margin-left:8.5%;
+  margin-top:2.5%;
+}
+
+.right{
+  width:120px;
+  position:absolute;
+  margin-left:70%;
+  margin-top:-50%;
+}
+
+li .good{
+  color:orange;
+  background-color:red;
+  border:solid 5px navy;
+  border-radius: 20px;
+  margin-left:3%;
+
+
+
+}
+
+.topname img{
+  border:solid 5px navy;
+  border-radius:20px;
+  display:block;
+  width:110px;
+  position:relative;
+
+
+}
+
+
+.display{
+  height:500px;
+  width:500px;
+  display:block;
+  background-color:orange;
+  margin-left:20%;
+  border:solid 20px red;
+  border-radius: 50px;
+
+
+}
+
+.name img{
+  border:5px solid purple;
+  border-radius:20px;
+  display:block;
+  width:110px;
+  position:relative;
+}
+
+li .bad{
+  color:red;
+  background-color:green;
+  border:solid 5px purple;
+  border-radius: 20px;
+
+}
+
+.rightSide{
+  position:absolute;
+}
