@@ -1,7 +1,6 @@
 {
   "name": "backbone-scaffold",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +13,14 @@
     "broccoli-merge-trees": "^0.2.2",
     "broccoli-sass": "^0.6.6",
     "broccoli-sourcemap-concat": "^1.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColemanCox/lesson-5.4-tbased-game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ColemanCox/lesson-5.4-tbased-game/issues"
+  },
+  "homepage": "https://github.com/ColemanCox/lesson-5.4-tbased-game#readme",
+  "description": ""
 }
