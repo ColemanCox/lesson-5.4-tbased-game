@@ -3,3 +3,98 @@
 @import 'bourbon';
 @import 'neat';
 @import 'border-box';
+
+
+html{
+  background:url("http://img09.deviantart.net/7bf4/i/2011/282/c/b/dbz_heroes_by_c_dubbkitari5_v2_by_bk_81-d4cbe7e.png");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.pic{
+  height:120px;
+}
+
+.left{
+  width:120px;
+  position:absolute;
+  margin-left:21%;
+  margin-top:1.5%;
+}
+
+.right{
+  width:120px;
+  position:absolute;
+  margin-left:67.5%;
+  margin-top:-37.2%;
+}
+
+li .good{
+  color:orange;
+  background-color:red;
+  border:solid 5px navy;
+  border-radius: 20px;
+  margin-left:3%;
+}
+
+.topname img{
+  border:solid 5px navy;
+  border-radius:20px;
+  display:block;
+  width:110px;
+  position:relative;
+}
+
+
+.display{
+  color:navy;
+  height:500px;
+  width:500px;
+  display:block;
+  background-color: orange;
+  margin-left:30%;
+  margin-top:10%;
+  border:solid 20px red;
+  border-radius: 50px;
+  text-align:center;
+  font-size:30px;
+}
+
+
+.name img{
+  border:5px solid purple;
+  border-radius:20px;
+  display:block;
+  width:110px;
+  position:relative;
+}
+
+li .bad{
+  color:red;
+  background-color:green;
+  border:solid 5px purple;
+  border-radius: 20px;
+
+}
+.top{
+  color:red;
+  background-color:orange;
+  border:solid 5px navy;
+  border-radius:10px;
+  margin-left:30%;
+}
+
+
+
+.bottom{
+  color: red;
+  background-color: black;
+  border: 5px solid purple;
+  border-radius:10px;
+  margin-left:30%;
+}
+
+.rightSide{
+  position:absolute;
+}
+
