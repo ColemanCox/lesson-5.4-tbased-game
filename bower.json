@@ -18,5 +18,7 @@
     "reset-css": "~2.0.2011012602",
     "neat": "~1.7.2",
     "jquery": "~2.1.4"
-  }
+  },
+  "homepage": "https://github.com/ColemanCox/lesson-5.4-tbased-game",
+  "main": "y"
 }
