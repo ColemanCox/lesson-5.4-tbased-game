@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/setup.js","templates/app.js"],"sourcesContent":["var AppTemplates = {};\n","AppTemplates['app'] = Handlebars.template({\"compiler\":[6,\">= 2.0.0-beta.1\"],\"main\":function(depth0,helpers,partials,data) {\n    return \"\";\n},\"useData\":true});"],"names":[],"mappings":"AAAA;;ACAA;AACA;","file":"app.js"}
