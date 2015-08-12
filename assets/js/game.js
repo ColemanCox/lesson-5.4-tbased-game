@@ -1,1 +1,2 @@
-var fighterButton = $('.select').on('click', );
+//after load screen and fighter select
+//battle begins and then....
