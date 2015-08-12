@@ -4,11 +4,12 @@ function Character(name, options) {
   this.name = name;
   options = options || {};
   var hitPoints = options.hitPoints || {};
-  this.technique = options.technique || {};
+  var technique = options.technique || {};
 
   this.takeDamage = function(damage) {hitPoints -= damage; };
 
-  this.getAttackStrength = function(techniqueName) {
+
+  this.getAttackStrength = function(attackMethod) {
   if (this.technique[techniqueName]) {
     return this.technique[techniqueName];
   }
