@@ -38,9 +38,7 @@ position: relative;
   position: absolute;
 
 }
-.select:active .pic{
 
-}
 
 
 
@@ -93,6 +91,9 @@ position: relative;
   border-radius: 10px;
  }
 
+.select:active .hide{
+  display:none;
+}
 
 
 
